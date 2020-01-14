@@ -9,6 +9,7 @@ This is, however, a **starting point** for **your** theme.
 - Theme boilerplate with pages, tags and categories.
 - 217B (that's bytes) of CSS that you don't have to include. Purely for basic aesthetic reasons.
 - Support for templates. If you set a template in bludit, the theme will try to include `inc/{template-name}.php`.
+- Navigation, by default, includes ALL categories and all pages that have the `menu` tag.
 - Support for *important* posts. All you have to do is implement a custom `bool` for important in your Custom Fields i.e.
 ```
 {
